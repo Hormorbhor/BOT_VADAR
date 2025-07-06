@@ -156,4 +156,5 @@ Built for Recall competitions. Optimized for domination.
 👾 [GitHub Repo](https://github.com/hormorbhor/vadar-bot) | 🤝 PRs welcome
 
 🛠️ **Join the dark side. Let your code rule the markets.**
+
 🛠️ **Built by Kenzman with Groq, LangChain, and the Dark Side.**

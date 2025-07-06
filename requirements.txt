@@ -1,0 +1,26 @@
+# === Python Dependencies for VADAR Autonomous Trading Bot ===
+
+# Load environment variables from a .env file
+python-dotenv>=1.0.0
+
+# HTTP requests (used for API calls to CoinGecko and Recall MCP)
+requests>=2.31.0
+
+# LangChain framework to build LLM-driven agents
+langchain>=0.1.17
+
+# LangChain provider for Groq integration (LLM: LLaMA3 via Groq)
+langchain-groq>=0.1.4
+
+# Optional (if you ever need pretty logs)
+rich>=13.7.0
+
+# --- If using FastAPI or Flask later for dashboard/frontend ---
+# fastapi
+# uvicorn
+
+# Version compatibility notes:
+# - Compatible with Python 3.10 and 3.11
+# - Groq integration depends on API key from https://console.groq.com
+# - For trading logic, this project uses Recall Network sandbox at:
+#   https://api.sandbox.competitions.recall.network/api/docs
